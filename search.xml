@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>图</title>
+      <link href="/2025/02/09/%E5%9B%BE/"/>
+      <url>/2025/02/09/%E5%9B%BE/</url>
+      
+        <content type="html"><![CDATA[<div class="video-container">[up主专用，视频内嵌代码贴在这]</div><style>.video-container {    position: relative;    width: 100%;    padding-top: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 * 100%) */}.video-container iframe {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;}</style>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CS224W系列 | 引言</title>
+      <link href="/2025/02/09/CS224W%E8%A7%A3%E9%A2%98/"/>
+      <url>/2025/02/09/CS224W%E8%A7%A3%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<h2 id="这里有什么"><a href="#这里有什么" class="headerlink" title="这里有什么"></a>这里有什么</h2><p>本系列基于斯坦福大学CS224W课程，包含知识点与colab作业。</p><p><strong>本系列内容由亚里士原创！</strong></p><h2 id="官网课程链接"><a href="#官网课程链接" class="headerlink" title="官网课程链接"></a>官网课程链接</h2><p><a href="https://web.stanford.edu/class/cs224w/">CS224W: Machine Learning with Graphs</a></p><blockquote><p>我们永远在路上。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 图神经网络 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 图神经网络 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>向上</title>
       <link href="/2025/01/21/%E5%90%91%E4%B8%8A/"/>
       <url>/2025/01/21/%E5%90%91%E4%B8%8A/</url>
@@ -23,35 +61,6 @@
             <tag> 短篇小说 </tag>
             
             <tag> 创作 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CS224W系列 | 引言</title>
-      <link href="/2025/01/21/CS224W%E8%A7%A3%E9%A2%98/"/>
-      <url>/2025/01/21/CS224W%E8%A7%A3%E9%A2%98/</url>
-      
-        <content type="html"><![CDATA[<h2 id="这是CS224W的相关笔记与解题思路"><a href="#这是CS224W的相关笔记与解题思路" class="headerlink" title="这是CS224W的相关笔记与解题思路"></a>这是CS224W的相关笔记与解题思路</h2><p>我们接下来的系列将会围绕此展开。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 图神经网络 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 图神经网络 </tag>
-            
-            <tag> 解题思路 </tag>
-            
-            <tag> 笔记 </tag>
             
         </tags>
       
