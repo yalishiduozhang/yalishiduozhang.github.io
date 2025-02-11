@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>CS224W系列 | (2)节点嵌入</title>
+      <link href="/2025/02/11/CS224W%E7%B3%BB%E5%88%97-2-%E8%8A%82%E7%82%B9%E5%B5%8C%E5%85%A5/"/>
+      <url>/2025/02/11/CS224W%E7%B3%BB%E5%88%97-2-%E8%8A%82%E7%82%B9%E5%B5%8C%E5%85%A5/</url>
+      
+        <content type="html"><![CDATA[<p>今天我们来探讨图嵌入，我们要用一个指定维度的向量来表示我们的图节点，并且想要保持它作为图中一份子的特征，也就是，相邻的节点的节点嵌入也应该相似。</p><p>接下来我们来详细分析。</p><h2 id="图的传统机器学习方法"><a href="#图的传统机器学习方法" class="headerlink" title="图的传统机器学习方法"></a>图的传统机器学习方法</h2><p><img src="https://pic1.imgdb.cn/item/67aaf0d3d0e0a243d4fe49f1.png" alt="传统图机器学习方法"><br>给定一个输入图，提取节点、连接和图层面的特征，然后训练一个模型，比如支持向量机、神经网络等，来将图特征映射到标签。<br>而我们用到的这些图的特征通常都是人工提取设计的，方法可以参考我们的上一节。</p><h2 id="革新-图表示学习"><a href="#革新-图表示学习" class="headerlink" title="革新-图表示学习"></a>革新-图表示学习</h2><p><img src="https://pic1.imgdb.cn/item/67aaf20dd0e0a243d4fe4a5c.png" alt="图表示学习"><br>如图所示，我们的图表示学习可以正是消除每次都需要进行特征工程需求的方法。</p><h3 id="图表示学习的核心目标"><a href="#图表示学习的核心目标" class="headerlink" title="图表示学习的核心目标"></a>图表示学习的核心目标</h3><p><img src="https://pic1.imgdb.cn/item/67aaf2a4d0e0a243d4fe4a90.png" alt="goal"><br>简单来说，图表示学习的核心目标就是实现高效的、与任务无关的特征学习。</p><p>把图节点嵌入到向量空间中，再利用我们熟悉的向量数据处理方法处理数据。</p><h3 id="为什么要进行图嵌入-Node-Embedding"><a href="#为什么要进行图嵌入-Node-Embedding" class="headerlink" title="为什么要进行图嵌入(Node Embedding)"></a>为什么要进行图嵌入(Node Embedding)</h3><p>我们做的所有处理都是为了方便的机器学习，正由于图结构的特殊性，我们在寻找一个方便的途径可以把图进行表示，而图嵌入正是实现这个途径的方法。</p><p>我们希望用节点间嵌入的相似性来表示它们在网络中的相似程度。</p><p>例如：</p><ul><li>两个节点是邻居（通过一条边连接）</li><li>编码网络信息</li><li>用于多种下游预测任务：<ul><li>节点分类</li><li>边预测</li><li>图分类</li><li>异常节点检测</li><li>聚类</li><li>And so on…<br><img src="https://pic1.imgdb.cn/item/67aaf47dd0e0a243d4fe4bbb.png" alt="下游预测任务"></li></ul></li></ul><h3 id="图嵌入实例"><a href="#图嵌入实例" class="headerlink" title="图嵌入实例"></a>图嵌入实例</h3><p><img src="https://pic1.imgdb.cn/item/67aaf4b8d0e0a243d4fe4bc9.png" alt="node embedding example"><br>上图实现了对Zachary空手道俱乐部网络的2D节点嵌入。</p><h2 id="编码器-Encoder-和解码器-Decoder"><a href="#编码器-Encoder-和解码器-Decoder" class="headerlink" title="编码器(Encoder)和解码器(Decoder)"></a>编码器(Encoder)和解码器(Decoder)</h2><p>接下来我们会探讨图嵌入的具体实现方法。<br>我们先来说说编码器和解码器。</p><p><img src="https://pic1.imgdb.cn/item/67aaf5f4d0e0a243d4fe4c6a.png" alt="简图G"><br>假设我们有一个无向图G，V是节点集合，矩阵A是邻接矩阵。</p><p>我们的目标是对节点进行编码，使得嵌入空间中的相似度（例如点积）能够近似表示图中节点之间的相似性。</p><p><img src="https://pic1.imgdb.cn/item/67aaf670d0e0a243d4fe4c87.png" alt="编码器"></p><blockquote><p>图示说明：<br>左侧：原始网络<br>展示了节点u,v及其在网络中的连接关系<br>右侧：嵌入空间<br>通过编码函数ENC将节点映射为向量zu,zv<br>映射过程：<br>ENC(u)将节点u映射到嵌入空间<br>ENC(v)将节点v映射到嵌入空间</p></blockquote><p><img src="https://pic1.imgdb.cn/item/67aaf6f3d0e0a243d4fe4cc2.png" alt="解码器"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>图机器学习浅入门知识点梳理</title>
       <link href="/2025/02/10/%E5%9B%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%B5%85%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E7%82%B9%E6%A2%B3%E7%90%86/"/>
       <url>/2025/02/10/%E5%9B%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%B5%85%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E7%82%B9%E6%A2%B3%E7%90%86/</url>
