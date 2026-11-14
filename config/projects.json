@@ -3,8 +3,8 @@
     "title": "Sinan",
     "image": "assets/sinan.svg",
     "meta": "MULTIMODAL RETRIEVAL",
-    "text": "A unified embedding model built on Qwen-3.5-9B for image, video and visual-document retrieval. I worked on data curation, teacher-only hard-negative mining, multi-source training, video sampling and model ensembling.",
-    "note": "77.56 average score across 44 MMEB v2 retrieval tasks; exceeded the Qwen3-VL-Embedding-8B baseline on 25 tasks. Results from internship experiments.",
+    "text": "A unified embedding model built on Qwen-3.5-9B for image, video and visual-document retrieval. I was responsible for building a unified multimodal training and inference codebase, hard-negative mining, multi-source training, video sampling and model ensembling.",
+    "note": "Our model achieved a higher average retrieval score on MMEB v2 than Qwen3-VL-Embedding-8B, the state-of-the-art model at the time.",
     "action": "github"
   },
   {

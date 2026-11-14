@@ -1,7 +1,7 @@
 {
   "name": "Xun Zhang",
-  "title": "AI Undergraduate · Fuzhou University",
-  "profileImage": "assets/xun-zhang.png",
+  "title": "Fuzhou University",
+  "profileImage": "assets/cat-avatar.jpg",
   "brandLogo": "assets/wordmark.svg",
   "descriptions": [
     {
@@ -10,7 +10,7 @@
     },
     {
       "icon": "layers",
-      "text": "Multimodal representations"
+      "text": "AI Infrastructure (AI Infra)"
     },
     {
       "icon": "cpu",

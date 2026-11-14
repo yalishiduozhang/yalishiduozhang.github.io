@@ -15,7 +15,7 @@ import { mergeTranslation } from "./utils/localization";
 
 const theme = parseConfig(themeSource, "config/theme.jsonc", true);
 
-const assets = import.meta.glob("./assets/**/*", {
+const assets = import.meta.glob(["./assets/**/*", "!./assets/xun-zhang.png", "!./assets/portrait-mask.png"], {
   eager: true,
   query: "?url",
   import: "default",
@@ -52,7 +52,10 @@ export const hero = {
 
 export const about = aboutData;
 
-export const education = educationData;
+export const education = {
+  ...educationData,
+  items: educationData.items.map(item => ({ ...item, logo: resolveAsset(item.logo) })),
+};
 export const awards = awardsData;
 export function isSectionVisible(section) {
   return section.enabled === true && Array.isArray(section.items) && section.items.length > 0;

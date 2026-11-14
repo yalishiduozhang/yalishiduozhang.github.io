@@ -1,24 +1,24 @@
 [
   {
     "organization": "University of Science and Technology of China",
-    "logo": "assets/university.svg",
+    "logo": "assets/ustc-emblem.png",
     "period": "Mar 2026 – Jun 2026",
     "location": "China",
     "role": "Research Intern · Multimodal Representation Learning",
     "details": [
       {
-        "label": "Sinan",
+        "label": "",
         "text": "Trained unified multimodal embedding models for image, video and visual-document retrieval on MMEB v2."
       },
       {
-        "label": "Training & evaluation",
+        "label": "",
         "text": "Built a unified data, training and evaluation pipeline; explored hard-negative mining, multi-source training and model ensembling on 16 NVIDIA A100 GPUs."
       }
     ]
   },
   {
     "organization": "Tsinghua University",
-    "logo": "assets/university.svg",
+    "logo": "assets/tsinghua-emblem.png",
     "period": "Nov 2025 – Mar 2026",
     "location": "China",
     "role": "Research Intern · Efficient LLM Reasoning",

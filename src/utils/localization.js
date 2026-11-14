@@ -4,12 +4,12 @@ export function mergeTranslation(base, translated, key = "") {
   if (translated === undefined) return base;
   if (Array.isArray(translated)) {
     return collections.has(key)
-      ? base.map((entry, index) => mergeTranslation(entry, translated[index]))
+      ? translated.map((entry, index) => mergeTranslation(base?.[index] ?? {}, entry))
       : translated;
   }
   if (translated && typeof translated === "object") {
-    return Object.fromEntries(Object.entries(base).map(([name, value]) =>
-      [name, mergeTranslation(value, translated[name], name)]));
+    return Object.fromEntries(Object.keys({ ...base, ...translated }).map(name =>
+      [name, mergeTranslation(base?.[name], translated[name], name)]));
   }
   return translated;
 }

@@ -89,7 +89,7 @@
       "type": "object", "additionalProperties": false, "required": ["organization", "logo", "period", "location", "role", "details"],
       "properties": {
         "organization": { "$ref": "#/$defs/text" }, "logo": { "$ref": "#/$defs/asset" }, "period": { "$ref": "#/$defs/text" }, "location": { "$ref": "#/$defs/text" }, "role": { "$ref": "#/$defs/text" },
-        "details": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["label", "text"], "properties": { "label": { "$ref": "#/$defs/text" }, "text": { "$ref": "#/$defs/text" } } } }
+        "details": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["label", "text"], "properties": { "label": { "type": "string" }, "text": { "$ref": "#/$defs/text" } } } }
       }
     } },
     "projects": { "type": "array", "items": {
@@ -104,7 +104,7 @@
       "type": "object", "additionalProperties": false, "required": ["enabled", "items"],
       "properties": { "enabled": { "type": "boolean" }, "items": { "type": "array", "items": {
         "type": "object", "additionalProperties": false, "required": ["institution"],
-        "properties": { "institution": { "$ref": "#/$defs/text" }, "degree": { "type": "string" }, "field": { "type": "string" }, "period": { "type": "string" }, "location": { "type": "string" }, "description": { "type": "string" } }
+        "properties": { "institution": { "$ref": "#/$defs/text" }, "logo": { "$ref": "#/$defs/asset" }, "degree": { "type": "string" }, "field": { "type": "string" }, "period": { "type": "string" }, "location": { "type": "string" }, "description": { "type": "string" } }
       } } }
     },
     "awards": {

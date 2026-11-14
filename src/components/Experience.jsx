@@ -149,8 +149,8 @@ export default function Experience() {
                 </div>
                 <ul className="exp-details">
                   {experience.details.map((detail) => (
-                    <li key={detail.label}>
-                      <span><span className="exp-project-name">{detail.label}</span> {detail.text}</span>
+                    <li key={detail.text}>
+                      <span>{detail.label && <><span className="exp-project-name">{detail.label}</span> </>}{detail.text}</span>
                     </li>
                   ))}
                 </ul>

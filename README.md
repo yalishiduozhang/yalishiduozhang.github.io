@@ -24,10 +24,10 @@ Open `http://localhost:5173/`. Use the header language button, `?lang=en` or `?l
 - `config/interface.json` and `reader-zh.json`: interface translations.
 - `config/theme.jsonc`: the original template palette.
 - `src/css/Personalization.css`: small bilingual and accessibility additions.
-- `src/assets/`: portrait, its extracted PDF alpha mask, wordmark and original explanatory SVG diagrams.
+- `src/assets/`: cat avatar, institution emblems, user-supplied paper method figures, wordmark and project diagrams. The legacy CV portrait and mask are excluded from production assets.
 - `public/papers/`: published papers from ACL Anthology for the same-origin PDF reader.
 
-The original private CV is not included. The public website omits its phone number and political affiliation. The research summaries are paraphrases; the PDF files contain the original papers. The institution pictogram is generic, not an official university logo.
+The original private CV is not included. The public website omits its phone number and political affiliation. The research summaries are paraphrases; the PDF files contain the original papers. Institution emblems identify internship affiliations; see CONTENT-LICENSE.md for sources.
 
 ## Verification
 

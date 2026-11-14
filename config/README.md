@@ -2,7 +2,7 @@
 
 The English content uses the upstream template's JSON schema in `schemas/site.schema.json`. Chinese translations are in `zh.json`; UI labels are in `interface.json` and `reader-zh.json`.
 
-For `publications`, `experience`, `projects`, and the `items` arrays under education/awards, translations merge by position. Keep the same entry count and order in both languages. Publication IDs must match. Links, author lists, citations and asset references remain shared unless explicitly overridden. Prose arrays such as paragraphs, tags and news segments replace the English arrays completely.
+For `publications`, `experience`, `projects`, and the `items` arrays under education/awards, translations merge by position, using the translated list's length: removed entries never reappear in English. Keep matching entries in the same order and synchronize both languages after editing. Publication IDs must match. Links, author lists, citations and asset references remain shared unless explicitly overridden. Prose arrays such as paragraphs, tags and news segments replace the English arrays completely.
 
 Run `npm test` after editing bilingual collections. Run `npm run build` to validate the English schema, asset references and local PDF paths.
 

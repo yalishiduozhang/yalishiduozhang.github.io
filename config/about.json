@@ -2,7 +2,7 @@
   "paragraphs": [
     [
       {
-        "text": "I am an undergraduate in "
+        "text": "I am currently an undergraduate in "
       },
       {
         "text": "Artificial Intelligence",
@@ -16,7 +16,14 @@
         "strong": true
       },
       {
-        "text": ", expecting to graduate in June 2027. My research explores how to make foundation models reason more efficiently and learn useful representations across modalities."
+        "text": ", expecting to graduate in June 2027. I have been admitted through the postgraduate recommendation pathway to the "
+      },
+      {
+        "text": "School of Computer Science and Engineering at Beihang University",
+        "strong": true
+      },
+      {
+        "text": ", with enrollment expected in September 2027. My research explores how to make foundation models reason more efficiently and learn unified representations across modalities."
       }
     ],
     [
@@ -28,12 +35,19 @@
         "strong": true
       },
       {
-        "text": " during a research internship at Tsinghua University, and on multimodal embedding models at the University of Science and Technology of China. I also enjoy the systems side of AI: profiling, parallel computing and inference optimization."
+        "text": " during a research internship at Tsinghua University. At the University of Science and Technology of China, I explored "
+      },
+      {
+        "text": "embedding model training for multimodal retrieval",
+        "strong": true
+      },
+      {
+        "text": ". I also focus on the systems side of AI, including profiling, parallel computing and inference optimization."
       }
     ]
   ],
   "quote": {
-    "text": "Efficient reasoning. Multimodal intelligence.",
-    "author": "Research interests"
+    "text": "We will all win!",
+    "author": "Xiao Xuyuan"
   }
 }

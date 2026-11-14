@@ -2,12 +2,21 @@
   "enabled": true,
   "items": [
     {
+      "institution": "Beihang University",
+      "logo": "assets/beihang-emblem.png",
+      "degree": "Master's",
+      "field": "School of Computer Science and Engineering",
+      "period": "Expected enrollment: Sep 2027",
+      "location": "Beijing, China"
+    },
+    {
       "institution": "Fuzhou University",
+      "logo": "assets/fzu-emblem.png",
       "degree": "Undergraduate · Artificial Intelligence",
-      "field": "GPA 3.80 / 4.00 · Recommendation ranking 1 / 68",
+      "field": "GPA 3.80 / 4.00 · Overall ranking 1 / 68",
       "period": "Aug 2023 – Jun 2027 (expected)",
       "location": "Fuzhou, China",
-      "description": "Selected coursework: Machine Learning (99/100), Linear Algebra (97/100), Operating Systems (96/100)."
+      "description": "Core member of the Fuzhou University Supercomputing Team."
     }
   ]
 }

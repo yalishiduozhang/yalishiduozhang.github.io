@@ -10,7 +10,6 @@ import { useLocale } from "../locale";
 const loadResumePreview = () => import("./ResumePreview");
 const ResumePreview = lazy(loadResumePreview);
 
-import mask from "../assets/portrait-mask.png";
 
 const descriptionIcons = {
   brain: BrainCircuit, layers: Layers3, cpu: Cpu,
@@ -33,7 +32,7 @@ export default function Hero() {
   const [preview, setPreview] = useState(null);
   return (
     <div className="hero-grid"><div className="hero-left">
-      <img src={hero.profileImage} alt={hero.name} className="profile-pic" style={{ maskImage: `url(${mask})`, maskMode: "luminance", maskSize: "100% 100%" }} draggable={false} fetchPriority="high" />
+      <img src={hero.profileImage} alt={hero.name} className="profile-pic" draggable={false} fetchPriority="high" />
       <div className="hero-meta">
         <div className="meta-name">{hero.name} <span className="bilingual-name">{ui.secondaryName}</span></div><div>{hero.title}</div>
         <div className="meta-description">

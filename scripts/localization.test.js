@@ -40,3 +40,9 @@ test("explicit language URLs override preferences and unknown values are safe", 
   assert.equal(readLocale("", "zh"), "zh");
   assert.equal(readLocale("?lang=invalid", null), "en");
 });
+
+test("removing translated collection entries never restores trailing English entries", () => {
+  const base = { items: [{ title: "Keep", year: "2024" }, { title: "Remove" }] };
+  assert.deepEqual(mergeTranslation(base, { items: [{ title: "保留" }] }), { items: [{ title: "保留", year: "2024" }] });
+  assert.deepEqual(mergeTranslation(base, { items: [] }), { items: [] });
+});
