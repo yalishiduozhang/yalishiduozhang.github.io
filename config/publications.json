@@ -1,0 +1,92 @@
+[
+  {
+    "id": "thinkleap",
+    "title": "ThinkLeap: Reasoning Optimization Through Confidence-Guided Cognitive Leap Extraction",
+    "authors": [
+      {
+        "text": "Yijia Zhu, Zhenning Shi, Junhan Shi, "
+      },
+      {
+        "text": "Xun Zhang",
+        "strong": true
+      },
+      {
+        "text": ", Yong Jiang, Qing Li"
+      }
+    ],
+    "venue": "EMNLP 2026",
+    "venueType": "conference",
+    "tags": [
+      "Efficient Reasoning",
+      "Self-Distillation"
+    ],
+    "link": "https://aclanthology.org/2026.emnlp-main.2270/",
+    "pdfUrl": "/papers/thinkleap.pdf",
+    "codeUrl": "https://github.com/YiJia-Zhu/ThinkLeap",
+    "image": "assets/thinkleap.svg",
+    "summary": "Compressing long reasoning chains by preserving the cognitive leaps that matter.",
+    "abstract": "ThinkLeap uses token-level confidence dynamics to locate critical transitions in a model's reasoning. It retains useful reasoning segments and replaces redundant deliberation with ellipsis markers, then uses these compact traces for self-distillation. Experiments on ARC-Challenge, GSM8K and MATH500 report an average 19.4% reduction in reasoning length while maintaining accuracy.",
+    "metric": "19.4% shorter reasoning",
+    "citation": "@inproceedings{zhu-etal-2026-thinkleap,\n  title = {ThinkLeap: Reasoning Optimization Through Confidence-Guided Cognitive Leap Extraction},\n  author = {Zhu, Yijia and Shi, Zhenning and Shi, Junhan and Zhang, Xun and Jiang, Yong and Li, Qing},\n  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},\n  year = {2026},\n  pages = {51628--51641},\n  doi = {10.18653/2026.emnlp-main.2270},\n  url = {https://aclanthology.org/2026.emnlp-main.2270/}\n}"
+  },
+  {
+    "id": "stir",
+    "title": "STIR: Self-Distilled Latent Tools for Dynamic Control of LLM Reasoning",
+    "authors": [
+      {
+        "text": "Zhenning Shi, Yijia Zhu, Junhan Shi, "
+      },
+      {
+        "text": "Xun Zhang",
+        "strong": true
+      },
+      {
+        "text": ", Lei Wang, Congcong Miao"
+      }
+    ],
+    "venue": "EMNLP 2026",
+    "venueType": "conference",
+    "tags": [
+      "Latent Steering",
+      "Test-Time Control"
+    ],
+    "link": "https://aclanthology.org/2026.emnlp-main.2278/",
+    "pdfUrl": "/papers/stir.pdf",
+    "codeUrl": "https://github.com/sznnzs/STIR",
+    "image": "assets/stir.svg",
+    "summary": "A self-distilled library of latent tools for selective, state-aware reasoning control.",
+    "abstract": "STIR learns state-conditioned correction vectors from a model's own successful and failed reasoning trajectories. At structured checkpoints, it retrieves candidate tools and uses short lookahead rollouts to decide whether to intervene or abstain. Across six reasoning benchmarks, it improves average accuracy by 1.9% to 7.5% over vanilla decoding and reduces average token consumption by up to 35%.",
+    "metric": "Up to 35% fewer tokens",
+    "citation": "@inproceedings{shi-etal-2026-stir,\n  title = {STIR: Self-Distilled Latent Tools for Dynamic Control of LLM Reasoning},\n  author = {Shi, Zhenning and Zhu, Yijia and Shi, Junhan and Zhang, Xun and Wang, Lei and Miao, Congcong},\n  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},\n  year = {2026},\n  pages = {51814--51829},\n  doi = {10.18653/2026.emnlp-main.2278},\n  url = {https://aclanthology.org/2026.emnlp-main.2278/}\n}"
+  },
+  {
+    "id": "tokenrouter",
+    "title": "TokenRouter: Uncertainty-Guided Token-Level Routing for Efficient LLM Reasoning",
+    "authors": [
+      {
+        "text": "Zhenning Shi, Yijia Zhu, Junhan Shi, "
+      },
+      {
+        "text": "Xun Zhang",
+        "strong": true
+      },
+      {
+        "text": ", Congcong Miao, Guorui Xie, Yong Jiang, Qing Li"
+      }
+    ],
+    "venue": "Findings of EMNLP 2026",
+    "venueType": "conference",
+    "tags": [
+      "Model Collaboration",
+      "Token-Level Routing"
+    ],
+    "link": "https://aclanthology.org/2026.findings-emnlp.1891/",
+    "pdfUrl": "/papers/tokenrouter.pdf",
+    "codeUrl": "https://github.com/sznnzs/TokenRouter",
+    "image": "assets/tokenrouter.svg",
+    "summary": "Letting small and large models share the work, one token at a time.",
+    "abstract": "TokenRouter is a black-box runtime controller that allocates tokens between small and large language models. A robust entropy detector identifies difficult reasoning segments, while a self-calibrating policy controls the compute budget and a commitment mechanism prevents disruptive switching. Across three reasoning benchmarks, it preserves over 99% of pure-LLM accuracy with large-model activation on only 56.2% to 76.0% of generated tokens.",
+    "metric": ">99% of LLM accuracy retained",
+    "citation": "@inproceedings{shi-etal-2026-tokenrouter,\n  title = {TokenRouter: Uncertainty-Guided Token-Level Routing for Efficient LLM Reasoning},\n  author = {Shi, Zhenning and Zhu, Yijia and Shi, Junhan and Zhang, Xun and Miao, Congcong and Xie, Guorui and Jiang, Yong and Li, Qing},\n  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2026},\n  year = {2026},\n  pages = {40295--40307},\n  doi = {10.18653/2026.findings-emnlp.1891},\n  url = {https://aclanthology.org/2026.findings-emnlp.1891/}\n}"
+  }
+]

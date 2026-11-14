@@ -1,0 +1,31 @@
+{
+  "enabled": true,
+  "items": [
+    {
+      "title": "National Scholarship",
+      "organization": "Undergraduate National Scholarship, China",
+      "year": "2024–2025"
+    },
+    {
+      "title": "ASC Student Supercomputer Challenge",
+      "description": "Second Prize · 35th globally",
+      "year": "2026"
+    },
+    {
+      "title": "Huawei ICT Competition",
+      "description": "Second Prize, China National Final (Practice Competition)"
+    },
+    {
+      "title": "Contemporary Undergraduate Mathematical Contest in Modeling",
+      "description": "National Second Prize"
+    },
+    {
+      "title": "China Electrical Mathematical Contest in Modeling",
+      "description": "National First Prize"
+    },
+    {
+      "title": "Chinese Mathematics Competitions",
+      "description": "Second Prize, provincial division (Non-Mathematics Category A)"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Sinan",
+    "image": "assets/sinan.svg",
+    "meta": "MULTIMODAL RETRIEVAL",
+    "text": "A unified embedding model built on Qwen-3.5-9B for image, video and visual-document retrieval. I worked on data curation, teacher-only hard-negative mining, multi-source training, video sampling and model ensembling.",
+    "note": "77.56 average score across 44 MMEB v2 retrieval tasks; exceeded the Qwen3-VL-Embedding-8B baseline on 25 tasks. Results from internship experiments.",
+    "action": "github"
+  },
+  {
+    "title": "ASC26 · Systems for AI & Science",
+    "image": "assets/asc26.svg",
+    "meta": "HPC & INFERENCE OPTIMIZATION",
+    "text": "Optimized numerical-relativity workloads with MPI + OpenMP, AVX-512, data-layout changes and kernel fusion. Also contributed to world-model inference optimization with attention caching, mixed precision and dual-GPU execution.",
+    "note": "4.33× end-to-end speedup on AMSS-NCKU (RMS error <1%); 3.72–7.58× on world-model inference under the PSNR constraint.",
+    "action": "github"
+  }
+]

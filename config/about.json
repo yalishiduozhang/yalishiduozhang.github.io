@@ -1,0 +1,39 @@
+{
+  "paragraphs": [
+    [
+      {
+        "text": "I am an undergraduate in "
+      },
+      {
+        "text": "Artificial Intelligence",
+        "strong": true
+      },
+      {
+        "text": " at "
+      },
+      {
+        "text": "Fuzhou University",
+        "strong": true
+      },
+      {
+        "text": ", expecting to graduate in June 2027. My research explores how to make foundation models reason more efficiently and learn useful representations across modalities."
+      }
+    ],
+    [
+      {
+        "text": "I have worked on "
+      },
+      {
+        "text": "confidence-guided reasoning, latent steering and small–large model collaboration",
+        "strong": true
+      },
+      {
+        "text": " during a research internship at Tsinghua University, and on multimodal embedding models at the University of Science and Technology of China. I also enjoy the systems side of AI: profiling, parallel computing and inference optimization."
+      }
+    ]
+  ],
+  "quote": {
+    "text": "Efficient reasoning. Multimodal intelligence.",
+    "author": "Research interests"
+  }
+}

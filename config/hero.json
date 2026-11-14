@@ -1,0 +1,53 @@
+{
+  "name": "Xun Zhang",
+  "title": "AI Undergraduate · Fuzhou University",
+  "profileImage": "assets/xun-zhang.png",
+  "brandLogo": "assets/wordmark.svg",
+  "descriptions": [
+    {
+      "icon": "brain",
+      "text": "Efficient LLM reasoning"
+    },
+    {
+      "icon": "layers",
+      "text": "Multimodal representations"
+    },
+    {
+      "icon": "cpu",
+      "text": "High-performance computing"
+    }
+  ],
+  "primaryLinks": [
+    {
+      "label": "Get in touch",
+      "url": "mailto:yalishiduozhang@gmail.com"
+    }
+  ],
+  "socialLinks": [
+    {
+      "label": "Google Scholar",
+      "icon": "scholar",
+      "url": "https://scholar.google.com/citations?user=N17fycQAAAAJ"
+    },
+    {
+      "label": "GitHub",
+      "icon": "github",
+      "url": "https://github.com/yalishiduozhang"
+    },
+    {
+      "label": "OpenReview",
+      "icon": "openreview",
+      "url": "https://openreview.net/profile?id=~Xun_Zhang6"
+    },
+    {
+      "label": "ORCID",
+      "icon": "orcid",
+      "url": "https://orcid.org/0009-0000-8660-1832"
+    },
+    {
+      "label": "ACL Anthology",
+      "icon": "acl",
+      "url": "https://aclanthology.org/people/xun-zhang-1832/"
+    }
+  ]
+}

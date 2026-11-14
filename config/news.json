@@ -1,0 +1,44 @@
+[
+  {
+    "date": "2026.10",
+    "segments": [
+      {
+        "text": "ThinkLeap",
+        "href": "https://aclanthology.org/2026.emnlp-main.2270/"
+      },
+      {
+        "text": " and "
+      },
+      {
+        "text": "STIR",
+        "href": "https://aclanthology.org/2026.emnlp-main.2278/"
+      },
+      {
+        "text": " appeared at EMNLP 2026; "
+      },
+      {
+        "text": "TokenRouter",
+        "href": "https://aclanthology.org/2026.findings-emnlp.1891/"
+      },
+      {
+        "text": " appeared in Findings of EMNLP 2026."
+      }
+    ]
+  },
+  {
+    "date": "2026.06",
+    "segments": [
+      {
+        "text": "Completed my research internship at USTC, working on unified multimodal embeddings for MMEB v2."
+      }
+    ]
+  },
+  {
+    "date": "2026.03",
+    "segments": [
+      {
+        "text": "Our team received Second Prize at ASC26, ranking 35th globally."
+      }
+    ]
+  }
+]

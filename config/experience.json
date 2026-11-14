@@ -1,0 +1,36 @@
+[
+  {
+    "organization": "University of Science and Technology of China",
+    "logo": "assets/university.svg",
+    "period": "Mar 2026 – Jun 2026",
+    "location": "China",
+    "role": "Research Intern · Multimodal Representation Learning",
+    "details": [
+      {
+        "label": "Sinan",
+        "text": "Trained unified multimodal embedding models for image, video and visual-document retrieval on MMEB v2."
+      },
+      {
+        "label": "Training & evaluation",
+        "text": "Built a unified data, training and evaluation pipeline; explored hard-negative mining, multi-source training and model ensembling on 16 NVIDIA A100 GPUs."
+      }
+    ]
+  },
+  {
+    "organization": "Tsinghua University",
+    "logo": "assets/university.svg",
+    "period": "Nov 2025 – Mar 2026",
+    "location": "China",
+    "role": "Research Intern · Efficient LLM Reasoning",
+    "details": [
+      {
+        "label": "Research",
+        "text": "Worked on reasoning-chain compression, self-distilled latent tools and uncertainty-guided token-level model routing."
+      },
+      {
+        "label": "Publications",
+        "text": "Co-authored ThinkLeap and STIR (EMNLP 2026), and TokenRouter (Findings of EMNLP 2026)."
+      }
+    ]
+  }
+]

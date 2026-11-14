@@ -1,0 +1,230 @@
+{
+  "site": {
+    "title": "章勋 Xun Zhang | 福州大学",
+    "description": "章勋，福州大学人工智能专业本科生，研究方向包括大语言模型高效推理、多模态表征学习与检索、高性能计算。",
+    "language": "zh-CN",
+    "copyrightName": "章勋"
+  },
+  "hero": {
+    "name": "章勋",
+    "title": "人工智能专业本科生 · 福州大学",
+    "descriptions": [
+      {
+        "icon": "brain",
+        "text": "大语言模型高效推理"
+      },
+      {
+        "icon": "layers",
+        "text": "多模态表征学习"
+      },
+      {
+        "icon": "cpu",
+        "text": "高性能计算"
+      }
+    ],
+    "primaryLinks": [
+      {
+        "label": "联系我",
+        "url": "mailto:yalishiduozhang@gmail.com"
+      }
+    ]
+  },
+  "about": {
+    "paragraphs": [
+      [
+        {
+          "text": "我是"
+        },
+        {
+          "text": "福州大学人工智能专业",
+          "strong": true
+        },
+        {
+          "text": "本科生，预计于 2027 年 6 月毕业。我的研究兴趣是让基础模型以更少的计算完成有效推理，并学习跨模态的统一表征。"
+        }
+      ],
+      [
+        {
+          "text": "在清华大学科研实习期间，我参与了"
+        },
+        {
+          "text": "置信度引导的推理链压缩、潜在空间推理控制与大小模型协同",
+          "strong": true
+        },
+        {
+          "text": "等研究；在中国科学技术大学实习期间，我探索了面向多模态检索的 Embedding 模型训练。同时，我也关注 AI 背后的系统问题，包括性能分析、并行计算和推理优化。"
+        }
+      ]
+    ],
+    "quote": {
+      "text": "让推理更高效，让模态相连接。",
+      "author": "研究兴趣"
+    }
+  },
+  "news": [
+    {
+      "date": "2026.10",
+      "segments": [
+        {
+          "text": "ThinkLeap",
+          "href": "https://aclanthology.org/2026.emnlp-main.2270/"
+        },
+        {
+          "text": " 与 "
+        },
+        {
+          "text": "STIR",
+          "href": "https://aclanthology.org/2026.emnlp-main.2278/"
+        },
+        {
+          "text": " 发表于 EMNLP 2026 主会，"
+        },
+        {
+          "text": "TokenRouter",
+          "href": "https://aclanthology.org/2026.findings-emnlp.1891/"
+        },
+        {
+          "text": " 发表于 Findings of EMNLP 2026。"
+        }
+      ]
+    },
+    {
+      "date": "2026.06",
+      "segments": [
+        {
+          "text": "完成中国科学技术大学科研实习，研究面向 MMEB v2 的统一多模态 Embedding 模型。"
+        }
+      ]
+    },
+    {
+      "date": "2026.03",
+      "segments": [
+        {
+          "text": "所在团队获得 ASC26 世界大学生超级计算机竞赛全球二等奖，全球排名第 35。"
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "id": "thinkleap",
+      "summary": "保留关键认知跃迁，压缩冗长推理链。",
+      "abstract": "ThinkLeap 利用 token 级置信度变化识别推理中的关键转折，保留有效推理片段，以省略标记替代冗余思考，并基于精炼轨迹进行自蒸馏。在 ARC-Challenge、GSM8K 和 MATH500 上，平均减少 19.4% 的推理长度，同时保持准确率基本稳定。",
+      "metric": "平均推理长度减少 19.4%",
+      "tags": [
+        "高效推理",
+        "自蒸馏"
+      ]
+    },
+    {
+      "id": "stir",
+      "summary": "从模型自身轨迹中提炼潜在工具，动态调控推理过程。",
+      "abstract": "STIR 从模型自身成功与失败的推理轨迹中学习状态相关的纠正向量。在结构化推理检查点检索候选工具，并通过短程前瞻判断是否干预。六个推理基准的实验中，相比常规解码，平均准确率提升 1.9%–7.5%，平均 token 消耗最多降低 35%。",
+      "metric": "平均 token 消耗最多降低 35%",
+      "tags": [
+        "潜在空间干预",
+        "测试时控制"
+      ]
+    },
+    {
+      "id": "tokenrouter",
+      "summary": "以 token 为粒度，让大小模型按需分工。",
+      "abstract": "TokenRouter 是大小语言模型间的黑盒运行时路由控制器。通过稳健的熵检测识别困难推理片段，结合自校准预算策略与动态干预承诺机制，兼顾计算开销和生成连贯性。在三个推理基准上，保留纯大模型超过 99% 的准确率，同时仅对 56.2%–76.0% 的生成 token 启用大模型。",
+      "metric": "保留纯大模型超过 99% 的准确率",
+      "tags": [
+        "大小模型协同",
+        "Token 级路由"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "organization": "中国科学技术大学",
+      "period": "2026.03 – 2026.06",
+      "location": "中国",
+      "role": "科研实习 · 多模态表征学习",
+      "details": [
+        {
+          "label": "Sinan",
+          "text": "面向 MMEB v2 训练统一多模态 Embedding 模型，覆盖图像、视频和视觉文档检索。"
+        },
+        {
+          "label": "训练与评测",
+          "text": "搭建数据处理、训练和评测的统一流程，在 16 张 NVIDIA A100 上探索难负例挖掘、多源混训和模型融合。"
+        }
+      ]
+    },
+    {
+      "organization": "清华大学",
+      "period": "2025.11 – 2026.03",
+      "location": "中国",
+      "role": "科研实习 · 大语言模型高效推理",
+      "details": [
+        {
+          "label": "研究内容",
+          "text": "参与推理链压缩、自蒸馏潜在工具与不确定性引导的 token 级大小模型路由研究。"
+        },
+        {
+          "label": "论文成果",
+          "text": "共同发表 ThinkLeap、STIR（EMNLP 2026 主会）与 TokenRouter（Findings of EMNLP 2026）。"
+        }
+      ]
+    }
+  ],
+  "education": {
+    "items": [
+      {
+        "institution": "福州大学",
+        "degree": "本科 · 人工智能",
+        "field": "GPA 3.80 / 4.00 · 保研综合排名 1 / 68",
+        "period": "2023.08 – 2027.06（预计）",
+        "location": "中国 · 福州",
+        "description": "核心课程：机器学习（99/100）、线性代数（97/100）、操作系统（96/100）。"
+      }
+    ]
+  },
+  "awards": {
+    "items": [
+      {
+        "title": "本科生国家奖学金",
+        "organization": "国家级",
+        "year": "2024–2025"
+      },
+      {
+        "title": "ASC 世界大学生超级计算机竞赛",
+        "description": "全球二等奖 · 全球第 35 名",
+        "year": "2026"
+      },
+      {
+        "title": "华为 ICT 大赛",
+        "description": "实践赛中国总决赛二等奖"
+      },
+      {
+        "title": "全国大学生数学建模竞赛",
+        "description": "全国二等奖"
+      },
+      {
+        "title": "全国大学生电工数学建模竞赛",
+        "description": "全国一等奖"
+      },
+      {
+        "title": "全国大学生数学竞赛",
+        "description": "省级赛区二等奖（非数学 A 类）"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Sinan",
+      "meta": "多模态检索",
+      "text": "基于 Qwen-3.5-9B 训练统一 Embedding 模型，覆盖图像、视频和视觉文档检索。我参与数据清洗与标准化、teacher-only 难负例挖掘、多源混训、视频采样和模型融合。",
+      "note": "MMEB v2 的 44 个检索任务平均得分 77.56，其中 25 个任务超过 Qwen3-VL-Embedding-8B 基线。数据来自实习期间的实验结果。"
+    },
+    {
+      "title": "ASC26 · AI 与科学计算系统优化",
+      "meta": "高性能计算与推理优化",
+      "text": "使用 MPI + OpenMP、AVX-512、数据布局优化与算子融合加速数值相对论程序；参与世界模型推理优化，结合注意力缓存、混合精度和双 GPU 并行降低推理开销。",
+      "note": "AMSS-NCKU 实现 4.33× 端到端加速（RMS 误差 <1%）；世界模型在满足 PSNR 约束下实现 3.72–7.58× 端到端加速。"
+    }
+  ]
+}

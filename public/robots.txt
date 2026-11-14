@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yalishiduozhang.github.io/sitemap.xml
