@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import fs from 'node:fs'
 import { renderSiteMetadata } from './scripts/site-metadata.js'
+import { renderProfileHtml } from './scripts/static-profile.js'
 import { arxivDevPlugin } from './scripts/arxiv-dev.js'
 import { optimizeImagesPlugin } from './scripts/optimize-images.js'
 
@@ -17,8 +18,10 @@ export default defineConfig({
   plugins: [react(), arxivDevPlugin(), optimizeImagesPlugin(), {
     name: 'site-metadata',
     transformIndexHtml(html) {
-      const site = JSON.parse(fs.readFileSync(new URL('./config/site.json', import.meta.url), 'utf8'))
-      return renderSiteMetadata(html, site)
+      const content = Object.fromEntries(['site', 'hero', 'about', 'publications', 'zh'].map(name => [
+        name, JSON.parse(fs.readFileSync(new URL(`./config/${name}.json`, import.meta.url), 'utf8')),
+      ]))
+      return renderProfileHtml(renderSiteMetadata(html, content.site), content)
     },
   }],
   define: {

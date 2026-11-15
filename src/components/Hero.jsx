@@ -34,7 +34,7 @@ export default function Hero() {
     <div className="hero-grid"><div className="hero-left">
       <img src={hero.profileImage} alt={hero.name} className="profile-pic" draggable={false} fetchPriority="high" />
       <div className="hero-meta">
-        <div className="meta-name">{hero.name} <span className="bilingual-name">{ui.secondaryName}</span></div><div>{hero.title}</div>
+        <h1 className="meta-name">{hero.name} <span className="bilingual-name">{ui.secondaryName}</span></h1><div>{hero.title}</div>
         <div className="meta-description">
           {hero.descriptions.map((item) => {
             const Icon = descriptionIcons[item.icon];

@@ -39,6 +39,26 @@ npm run build
 
 The test suite includes configuration, bilingual data consistency, language selection, modal behavior and the template's PDF utilities.
 
+## Search discoverability
+
+The HTML response includes a visible bilingual profile with academic account links,
+research interests and complete publication titles, author lists, paper/PDF/code links.
+Vite generates it from the same `config/` files as the interactive site. It works
+without JavaScript and remains available if the application fails to load. React
+replaces this initial content with the interactive page when it starts.
+
+`scripts/static-profile.js` also generates the `ProfilePage` / `Person` JSON-LD
+from the identity configuration, so profile links do not need a second manual edit.
+The canonical URL remains the root homepage; `?lang=zh` and `?lang=en` remain UI
+preferences, while the initial HTML contains both languages for every request.
+
+After publishing, verify the root URL in Google Search Console and Bing Webmaster
+Tools, submit `/sitemap.xml`, and request indexing where available. Public search
+results and `site:` queries alone cannot establish whether a URL is indexed.
+Keep links back to the homepage on public GitHub, OpenReview and Scholar profiles.
+These changes improve access to the content; they do not guarantee indexing,
+ranking, AI citations or a particular time to appear in search.
+
 ## Publish
 
 Source is on `academic-source`; the compiled site is published from `main` using the existing GitHub Pages configuration. The earlier Hexo source branch is independent.

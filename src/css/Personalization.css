@@ -1,6 +1,7 @@
 /* Small additions for identity and bilingual controls; upstream styles stay intact. */
 .profile-pic { aspect-ratio: 1; object-fit: cover; border-radius: 24px; margin-bottom: 1rem; }
 .bilingual-name { font-size: .85em; font-style: normal; font-weight: 500; margin-left: .35em; }
+.hero-meta h1.meta-name { margin: 0; }
 .header-container .language-toggle { order: 3; padding: .4rem .65rem; margin-left: .65rem; background: var(--theme-color-surface); color: var(--theme-text-color); font-size: .78rem; }
 .template-credit { margin-left: .5rem; }
 .copy-status { color: var(--theme-text-color); font-size: .75rem; }
